@@ -1,0 +1,32 @@
+{
+    "body": "{'key1': 'lulu','key2': 'lulu'}",
+    "headerParameters": {},
+    "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "cache-control": "no-cache",
+        "connection": "close",
+        "content-length": "31",
+        "content-type": "text/plain",
+        "host": "service-e5i7v3s6-1256519379.gz.apigw.tencentcs.com",
+        "postman-token": "f97cfe86-3b51-44a2-ad80-1c17f79b3012",
+        "user-agent": "PostmanRuntime/7.21.0",
+        "x-anonymous-consumer": "true",
+        "x-api-requestid": "a3155e98ca229bd4707a375135549f02",
+        "x-b3-traceid": "a3155e98ca229bd4707a375135549f02",
+        "x-qualifier": "$LATEST"
+    },
+    "httpMethod": "POST",
+    "path": "/hello_world",
+    "pathParameters": {},
+    "queryString": {},
+    "queryStringParameters": {},
+    "requestContext": {
+        "httpMethod": "ANY",
+        "identity": {},
+        "path": "/hello_world",
+        "serviceId": "service-e5i7v3s6",
+        "sourceIp": "133.18.168.145",
+        "stage": "release"
+    }
+}
