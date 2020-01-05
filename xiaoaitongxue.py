@@ -13,19 +13,19 @@ def main_handler(event, context):
  query = body['query']
  print(query)
 
+ responseBody = '这是一个测试，用来看看看能不能收到消息: ' + query
  response = {
-     "version": "1.0",
-     "is_session_end":False,
-     "response": {
-        "open_mic":True,
-        "to_speak": {
+     "is_session_end": False,
+     "version": 1.0,
+     "response" {
+          "to_speak": {
             "type": 0,
-            "text": query
+            "text": "海浪的声音来咯"
         },
         "to_display": {
             "type": 0,
-            "text": query
-        }
+            "text": "海浪的声音来咯"
+        },
      }
 
  }

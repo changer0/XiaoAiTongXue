@@ -1,0 +1,55 @@
+{
+    "version": "1.0",
+    "session": {
+        "is_new": false,
+        "session_id": "530xxxxxxx",
+        "application": {
+            "app_id": "xxxxxxxxxx"
+        },
+        "user": {
+            "user_id": "Z05hZ==",
+            "is_user_login": true,
+            "gender": "unknown"
+        }
+    },
+    "request": {
+        "type": 0,
+        "request_id": "1b2f490768a8d09d859a3",
+        "timestamp": 1572508188915,
+        "intent": {
+            "query": "听30分钟海浪声",
+            "score": 0.800000011920929,
+            "complete": true,
+            "domain": "openplatform",
+            "confidence": 1,
+            "skillType": "Custom",
+            "sub_domain": "1004244",
+            "app_id": "xxxxxxx",
+            "request_type": "Start",
+            "need_fetch_token": false,
+            "is_direct_wakeup": false,
+            "slots": "{\"intent_name\":\"set_whitenoise\",\"slots\":[{\"name\":\"whitenoise\",\"value\":\"海浪\",\"raw_value\":\"海浪声\"},{\"name\":\"time\",\"value\":\"{\\\"start\\\":\\\"2019-10-31T15:49:48\\\",\\\"end\\\":\\\"2019-10-31T16:19:48\\\"}\",\"raw_value\":\"30分钟\"}]}"
+        },
+        "locale": "zh-CN",
+        "slot_info": {
+            "intent_name": "set_whitenoise",
+            "slots": [
+                {
+                    "name": "whitenoise",
+                    "value": "雨声",
+                    "raw_value": "海浪声"
+                },
+                {
+                    "name": "time",
+                    "value": "{\"start\":\"2019-10-31T15:09:48\",\"end\":\"2019-10-31T16:29:48\"}",
+                    "raw_value": "30分钟"
+                }
+            ]
+        }
+    },
+    "query": "听30分钟海浪声",
+    "context": {
+        "device_id": "OQ+VrIRwXudjS+uT9KOuAA==",
+        "in_exp": false
+    }
+}

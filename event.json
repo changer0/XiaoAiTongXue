@@ -1,5 +1,5 @@
 {
-    "body": "{'key1': 'lulu','key2': 'lulu'}",
+    "body": "{\"query\": \"听30分钟海浪声\"}",
     "headerParameters": {},
     "headers": {
         "accept": "*/*",

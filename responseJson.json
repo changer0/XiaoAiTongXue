@@ -1,0 +1,42 @@
+{
+    "is_session_end": false,
+    "version": "1.0",
+    "response": {
+        "confidence": 0.8869365,
+        "open_mic": true,
+        "to_speak": {
+            "type": 0,
+            "text": "海浪的声音来咯"
+        },
+        "to_display": {
+            "type": 0,
+            "text": "海浪的声音来咯"
+        },
+        "log_info": {}
+    },
+    "session_attributes": {
+        "noticeFlag": 1,
+        "replyKeyWord": "",
+        "turn": 3,
+        "miniSkillInfo": {
+            "name": "LONGTAIL"
+        },
+        "session": {
+            "sessionID": "f7579e8e-982e-4d4b-9387-980a3b09edef",
+            "skillName": "",
+            "skillSubName": "",
+            "turn": 0,
+            "data": [
+                {
+                    "query": "海浪声",
+                    "reply": "海浪的声音来咯",
+                    "engine": "LONGTAIL"
+                }
+            ]
+        },
+        "longtailEngine": "SKILL",
+        "replace": false,
+        "latitude": 40.61924,
+        "longtitude": 120.73009
+    }
+}
